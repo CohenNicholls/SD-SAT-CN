@@ -1,0 +1,29 @@
+Design Brief: Mr Marshall’s Late Work Management System
+Problem, Need or Opportunity
+Mr Marshall is experiencing ongoing difficulty managing the status of student work submissions on Canvas. When students hand in work that was previously marked as missing, he often forgets to update the status to late or submitted, leading to inaccurate records and confusion during marking. This creates unnecessary administrative workload, reduces efficiency, and increases the risk of miscommunication with students.
+There is a clear opportunity to develop a software solution that streamlines this process by helping Mr Marshall track missing work, update statuses promptly, and receive reminders for outstanding tasks.
+
+Proposed Users
+• Primary User:
+Mr Marshall, who will use the application to manage late and missing work efficiently.
+• Secondary Users:
+Other teaching staff who face similar challenges with tracking student submissions and may benefit from automated reminders, class filtering, and simplified status updates.
+
+Programming Languages to Be Used
+The application will be developed using Python, chosen for its readability, strong community support, and wide range of libraries suitable for automation, data handling, and user interface development. Python’s flexibility makes it ideal for building a lightweight, school friendly tool without requiring additional hardware.
+
+Feasibility
+Technical Feasibility
+Python provides robust libraries for GUI development, data processing, and automation, making the project technically achievable. The software will run on existing school computers, meaning no new hardware or specialised equipment is required. The scope of the project fits within the capabilities of a student developer and can be completed using standard school resources.
+Financial Feasibility
+There are no financial costs associated with development. The project will be completed as part of the student’s assessed coursework over approximately one and a half terms. All required tools and libraries are free and open source, ensuring the project remains cost neutral.
+Operational Feasibility
+The project timeline spans a term and a half, covering analysis, design, development, testing, and evaluation. The main operational risk is limited development time, as the developer is a secondary school student working within scheduled class periods. However, with clear milestones and manageable scope, the project is achievable. The final product will be easy for staff to adopt, requiring minimal training due to its simple, intuitive interface.
+
+Originality
+This software will differentiate itself by focusing specifically on the workflow challenges faced by teachers managing late and missing work. Unlike generic LMS tools, this application will offer:
+• Automated class and student filtering
+• Quick status update tools for missing and late work
+• Reminder notifications for outstanding tasks
+• A clean, teacher friendly interface tailored to Media classes and Mr Marshall’s marking patterns
+
