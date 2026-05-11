@@ -1,1 +1,64 @@
+# **C02 — Data Collection Plan**
 
+## **1. What data do I need?**  
+I need to collect information about **user needs**, such as what tasks teachers perform when managing late or missing work and what features would reduce their workload. I also need to identify **pain points**, including steps that are confusing, time‑consuming, or prone to error. Understanding the **existing workflow** will help define the current processes and where automation is most useful. I must also gather **technical constraints** such as available devices, software restrictions, and school network limitations. Finally, I need to confirm any **legal or privacy requirements**, especially around student data. Each of these informs **requirements**, **constraints**, **scope**, **user characteristics**, and the **technical environment**.
+
+---
+
+## **2. Which methods will I use?**  
+I will use **interviews** to gather detailed qualitative insights from the primary user. Interviews allow open‑ended questions that reveal motivations, frustrations, and expectations that users may not express in a survey. This method is ideal for understanding the reasoning behind current behaviours and identifying deeper needs.
+
+I will use a **survey** to collect quantitative data from a wider group of teachers. Surveys allow me to measure how common certain pain points are, compare different user preferences, and identify patterns across multiple classes or subjects. Closed‑ended questions will help produce measurable data that supports requirement decisions.
+
+I will also conduct an **observation** of the current workflow. Observing the user performing real tasks helps reveal issues they may not consciously notice, such as unnecessary steps, repetitive actions, or interface friction. This method is especially useful for validating assumptions and mapping the actual workflow rather than the idealised one.
+
+Finally, I will review **reports** such as school policies, Canvas documentation, and any existing submission statistics. Reports provide context that cannot be collected directly and help confirm constraints, privacy requirements, and technical limitations.
+
+---
+
+## **3. Who will I collect data from?**  
+My primary data source will be **Mr Marshall**, the main user of the system. I will also collect information from **other teaching staff** who manage late or missing work, as they represent secondary users who may benefit from similar features. If needed, I will gather additional insights from **three classmates** who regularly submit work on Canvas to understand student‑side behaviours that influence teacher workload. These groups will help me understand both direct user needs and the broader environment affected by the solution.
+
+---
+
+## **4. User stories and MoSCoW priorities**
+
+### **User Story 1 — Must Have**  
+**As a teacher, I want to quickly update work statuses so that my records stay accurate.**  
+**Acceptance Criteria:**  
+- *Given* I am viewing a student’s task  
+- *When* I select a new status  
+- *Then* the system updates it immediately and confirms the change  
+
+### **User Story 2 — Must Have**  
+**As a teacher, I want to see all missing work in one place so that I can manage overdue tasks efficiently.**  
+**Acceptance Criteria:**  
+- *Given* I open the dashboard  
+- *When* I filter by “missing”  
+- *Then* only missing submissions are displayed  
+
+### **User Story 3 — Should Have**  
+**As a teacher, I want automated reminders so that I don’t forget to update statuses.**  
+**Acceptance Criteria:**  
+- *Given* there are outstanding tasks  
+- *When* a set time passes  
+- *Then* I receive a reminder notification  
+
+### **User Story 4 — Could Have**  
+**As a teacher, I want class‑level filtering so that I can manage different groups more easily.**  
+**Acceptance Criteria:**  
+- *Given* I select a class  
+- *When* the filter is applied  
+- *Then* only students from that class appear  
+
+### **User Story 5 — Should Have**  
+**As a teacher, I want a simple interface so that I can complete tasks without training.**  
+**Acceptance Criteria:**  
+- *Given* I open the application  
+- *When* I navigate through features  
+- *Then* all controls are clear, labelled, and easy to understand  
+
+---
+
+## **5. Schedule and artefacts**  
+I will conduct the **interview** with Mr Marshall in Week 4 and upload the **interview notes** to GitHub. The **survey** will open in Week 4 and close in Week 5, and I will commit the **CSV export** of the results. The **observation session** will occur during one of Mr Marshall’s Media classes in Week 5, and I will upload **observation notes**. Any **reports or policy documents** used will be added as PDFs or links. All artefacts will be committed to GitHub, and the final commit message will be **“C02: data collection plan”**.
