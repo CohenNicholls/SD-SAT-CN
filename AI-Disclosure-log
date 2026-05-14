@@ -29,3 +29,24 @@ Everything but specific dates.
 
 **What I changed or rejected:**
 Mention of specific dates that were incorrect as well as the periods in which I would interview Mr Marshall as it would have been inconvinent to him
+
+
+
+02 - 14/5/2026 - data-collection-plan
+
+**What I asked the AI:**
+1. "Help me write some interview questions for my data collection."
++ include data-collection-plan
++ include design-brief
+ 
+2. "Help me write some survey questions for my data collection."
+no need to include the above 2 items if you ask directly after the first request
+
+**What it produced:**
+30 Interview Questions
+
+**What I kept:**
+Everything but questions: 7,8,9,13,20
+
+**What I changed or rejected:**
+I changed questions: 7,8,9,13,20
