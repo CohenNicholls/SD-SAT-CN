@@ -70,3 +70,22 @@ All data and design of poster
 
 **What I changed or rejected:**
 Any reference to the student checklist
+
+
+
+04 - 26/5/2026 - SRS.md
+
+**What I asked the AI:**
+1. "Fill out this User Story Template using information from my design brief and data collection results and compact it into one single well formatted word document:"
++ include data-collection
++ include design-brief
++ Part 1 of SRS work doc
+
+**What it produced:**
+Workproduced in SRS.md
+
+**What I kept:**
+All infomation filled in tables
+
+**What I changed or rejected:**
+Made it a .md file so it could transfer better to github
