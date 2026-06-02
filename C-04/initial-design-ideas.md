@@ -1,4 +1,4 @@
-What features could your software include?
+### What features could your software include?
 
 * reminders for missing work
 * quick buttons to change status
@@ -14,7 +14,7 @@ What features could your software include?
 * “needs review” section
 * automatic sorting by due date
 
-What could it look like?
+### What could it look like?
 
 * simple dashboard layout
 * sidebar with classes and assignments
@@ -27,7 +27,7 @@ What could it look like?
 * popup reminders
 * basic graphs or charts
 
-How might users interact with it?
+### How might users interact with it?
 
 * click on a class to see submissions
 * press buttons to update statuses
@@ -39,7 +39,7 @@ How might users interact with it?
 * use dropdown menus and checkboxes
 * generate summaries before reports
 
-What existing Software inspires you?
+### What existing Software inspires you?
 
 * Canvas
 * Google Classroom
