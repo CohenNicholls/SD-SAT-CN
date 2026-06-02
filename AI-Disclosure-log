@@ -89,3 +89,20 @@ All infomation filled in tables
 
 **What I changed or rejected:**
 Made it a .md file so it could transfer better to github
+
+
+
+05 - 02/6/2026 - Inital Design Ideas List.md
+
+**What I asked the AI:**
+1. "Write a list with these headings: * What features could your software include? * What could it look like? * How might users interact with it? * What existing Software inspires you?"
++ include design-brief
+
+**What it produced:**
+intial-design-ideas.md
+
+**What I kept:**
+All relevent infomation
+
+**What I changed or rejected:**
+Made it more rough and not inculde any over detailed infomation so the premis remains "Rough"
