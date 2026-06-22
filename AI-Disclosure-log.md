@@ -122,3 +122,81 @@ Everything
 
 **What I changed or rejected:**
 Nothing
+
+
+
+07 - 23/6/2026 - Data_Dictionary
+
+**What I asked the AI:**
+"Make a Data dictionary using the provided infomation:"
+* Provided SRS
+* Provided Mindmap
+
+**What it produced:**
+Everything in Data_Dictionary in C0-5
+
+**What I kept:**
+Everything
+
+**What I changed or rejected:**
+Nothing
+
+
+
+08 - 23/6/2026 - IPO_Chart
+
+**What I asked the AI:**
+"Now create a IPO chart:"
+* Provided SRS
+* Provided Mindmap
+* Provided Data_Dictionary
+
+**What it produced:**
+Everything in IPO_Chart in C0-5
+
+**What I kept:**
+Everything
+
+**What I changed or rejected:**
+Nothing
+
+
+
+09 - 23/6/2026 - Object_description
+
+**What I asked the AI:**
+"Now create a the object description:"
+* Provided SRS
+* Provided Mindmap
+* Provided Data_Dictionary
+* Provided IPO_Chart
+
+**What it produced:**
+Everything in Object_description in C0-5
+
+**What I kept:**
+Everything
+
+**What I changed or rejected:**
+Nothing
+
+
+
+10 - 23/6/2026 - Pseudo_code
+
+**What I asked the AI:**
+"Now create a the pseudo code:"
+* Provided SRS
+* Provided Mindmap
+* Provided Data Dictionary
+* Provided IPO Chart
+* Provided Object description
+
+**What it produced:**
+Everything in Pseudo_code in C0-5
+
+**What I kept:**
+Everything
+
+**What I changed or rejected:**
+Nothing
