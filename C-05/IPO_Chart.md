@@ -1,6 +1,6 @@
 # IPO Chart (Input – Process – Output)
 
-## Mr Marshall's Late Work Management System
+## Late Work Management System
 
 | **Input**                                                | **Process**                                 | **Output**                                  |
 | -------------------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
@@ -26,11 +26,3 @@
 | Teacher Status Updates   | Save Changes       | Updated Records               |
 | Filter & Search Requests | Filter/Search Data | Filtered Results              |
 | Outstanding Work Records | Generate Reminders | Notifications                 |
-
-This IPO chart aligns directly with the major feature areas from your mind map:
-
-* Assignment Management
-* Data Management
-* Filtering & Searching
-* Reminders & Notifications
-* User Interface/Dashboard View
