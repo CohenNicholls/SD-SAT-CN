@@ -73,25 +73,3 @@ Because Canvas is powerful but slow for status correction, your system should:
 * Extract only the **late/missing management feature**
 * Make status updates **one-click or automatic**
 * Reduce multi-step workflows into a single action
-
----
-
-# Overall Design Insights (What you should conclude)
-
-Across all three systems, a clear pattern appears:
-
-* Simple systems (Google Classroom) are easy but lack control
-* Complex systems (Canvas, Teams) have power but are slow and cluttered
-* None are optimised specifically for **correcting late/missing work efficiently**
-
----
-
-# Final Design Decisions for Your System
-
-Because of these findings, your Late Work Management System should:
-
-* Use a **simple dashboard layout (inspired by Google Classroom)**
-* Include **structured status workflow (from Canvas)**
-* Add **smart reminders and alerts (from Microsoft Teams)**
-* Focus on **one-click status correction for teachers**
-* Remove unnecessary LMS features (avoid Canvas/Teams complexity)
