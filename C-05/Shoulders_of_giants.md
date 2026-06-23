@@ -1,4 +1,4 @@
-# C5-3 Step 1 — Shoulders of Giants
+#Shoulders of Giants
 
 ## 1. Google Classroom
 
