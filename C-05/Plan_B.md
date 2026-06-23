@@ -1,4 +1,4 @@
-# C5-3 Step 3 — Plan B Ready
+# Plan B Ready
 
 ## Late Work Management System
 
