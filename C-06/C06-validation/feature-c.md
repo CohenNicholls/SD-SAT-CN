@@ -1,9 +1,9 @@
 # C06 Feature Evidence File — Feature c
 
-Student name:  Cohen Nicholls
-Project name:  EduTrack
-Feature name:  Reminder Page
-Date committed:  30/7/26
+Student name:  Cohen Nicholls,
+Project name:  EduTrack,
+Feature name:  Reminder Page,
+Date committed:  30/7/26,
 
 ---
 
