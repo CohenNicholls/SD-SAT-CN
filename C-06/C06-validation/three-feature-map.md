@@ -21,10 +21,16 @@ Add Student Window
 This feature allows the user to add new students to the account and display in the appropriate places. This also includes adding the students ID, class and work status attached to that student.
 
 **Linked SRS requirements:**  
+Functional:
+Student submission status updates
+Data saving functionality
+A checklist or table showing student submission records
+
+Non-Functional:
 
 
 **Code location:** 
-<!-- Location of code. File, Class, Method, Line -->
+Line - 1482
 
 
 
@@ -33,16 +39,19 @@ This feature allows the user to add new students to the account and display in t
 ## Feature b
 
 **Feature name:**  
-
+Class Filter
 
 **Short description:**  
-
+This function allows users to filter Students or others in the database by the class they have filtered by such as English, Maths, Science, etc.
 
 **Linked SRS requirements:**  
+Functional:
 
+Non-Functional:
+Ability to filter for ease of use
 
 **Code location:** 
-
+Line - 1281
 
 
 ---
@@ -50,16 +59,22 @@ This feature allows the user to add new students to the account and display in t
 ## Feature c
 
 **Feature name:**  
-
+Reminders Page
 
 **Short description:**  
-
+This is a page that sums up the account and notifies the user about students who need attention or reminders to get there work in or to change the status of work that has been submitted.
 
 **Linked SRS requirements:**  
+Functional:
+Missing, late, and submitted work tracking
+A checklist or table showing student submission records
+Teacher access to update student work statuses
+
+Non-Functional:
 
 
 **Code location:** 
-
+Line - 2067
 
 
 ---
@@ -68,7 +83,7 @@ This feature allows the user to add new students to the account and display in t
 
 Before committing, check:
 
-- [ ] I have nominated exactly three significant features.
+- [✓] I have nominated exactly three significant features.
 - [ ] Each feature links to at least one FR or NFR from my SRS.
 - [ ] Each feature exists in my actual project code.
 - [ ] Each feature has its own feature evidence file.
