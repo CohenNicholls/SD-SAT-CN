@@ -1,8 +1,11 @@
 # C06 Feature Evidence File — Feature b
 
 Student name:  Cohen Nicholls,
+
 Project name:  EduTrack,
+
 Feature name:  Filter Class,
+
 Date committed:  30/7/2026,
 
 ---
