@@ -15,13 +15,13 @@ My teacher may choose any one of these features for the **Prove It’s Yours** t
 ## Feature a
 
 **Feature name:**  
-<!-- Name of nominated feature -->
+Add Student Window
 
 **Short description:**  
-<!-- What does this feature allow the user/system to do? -->
+This feature allows the user to add new students to the account and display in the appropriate places. This also includes adding the students ID, class and work status attached to that student.
 
 **Linked SRS requirements:**  
-<!-- List the FR/NFR codes and names. Example: FR-03 Add new habit; NFR-02 Easy to use -->
+
 
 **Code location:** 
 <!-- Location of code. File, Class, Method, Line -->
