@@ -1,8 +1,8 @@
 # C06 Three Most Significant Features Map
 
-Student name:  
-Project name:  
-Date committed:  
+Student name:  Cohen Nicholls
+Project name:  EduTrack
+Date committed:  30/7/2026
 
 ## Purpose of this file
 
