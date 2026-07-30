@@ -1,8 +1,11 @@
 # C06 Feature Evidence File — Feature a
 
 Student name:  Cohen Nicholls
+
 Project name:  EduTrack
+
 Feature name:  Add Student Window
+
 Date committed:  30/7/2026
 
 ---
