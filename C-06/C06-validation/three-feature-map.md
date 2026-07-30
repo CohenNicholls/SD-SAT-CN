@@ -27,7 +27,7 @@ Data saving functionality
 A checklist or table showing student submission records
 
 Non-Functional:
-
+Clear visual display of missing or late submissions
 
 **Code location:** 
 Line - 1482
@@ -46,6 +46,7 @@ This function allows users to filter Students or others in the database by the c
 
 **Linked SRS requirements:**  
 Functional:
+Data saving functionality
 
 Non-Functional:
 Ability to filter for ease of use
@@ -71,7 +72,8 @@ A checklist or table showing student submission records
 Teacher access to update student work statuses
 
 Non-Functional:
-
+Automated prompts for outstanding work
+Reminder notifications
 
 **Code location:** 
 Line - 2067
@@ -84,9 +86,9 @@ Line - 2067
 Before committing, check:
 
 - [✓] I have nominated exactly three significant features.
-- [ ] Each feature links to at least one FR or NFR from my SRS.
-- [ ] Each feature exists in my actual project code.
-- [ ] Each feature has its own feature evidence file.
+- [✓] Each feature links to at least one FR or NFR from my SRS.
+- [✓] Each feature exists in my actual project code.
+- [✓] Each feature has its own feature evidence file.
 - [ ] My code contains `# C6XX` labels for the relevant C6 skills.
 - [ ] My real project code has been committed.
 - [ ] This map has been committed before the C06 validation.
