@@ -76,7 +76,7 @@ Automated prompts for outstanding work
 Reminder notifications
 
 **Code location:** 
-Line - 2067
+Line - 2091
 
 
 ---
@@ -89,6 +89,6 @@ Before committing, check:
 - [✓] Each feature links to at least one FR or NFR from my SRS.
 - [✓] Each feature exists in my actual project code.
 - [✓] Each feature has its own feature evidence file.
-- [ ] My code contains `# C6XX` labels for the relevant C6 skills.
-- [ ] My real project code has been committed.
-- [ ] This map has been committed before the C06 validation.
+- [✓] My code contains `# C6XX` labels for the relevant C6 skills.
+- [✓] My real project code has been committed.
+- [✓] This map has been committed before the C06 validation.
