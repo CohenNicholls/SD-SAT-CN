@@ -9,7 +9,7 @@ Feature name:  Add Student Window
 Date committed:  30/7/2026
 
 ---
-
+```
 def add_student_window(refresh):
 
     """
