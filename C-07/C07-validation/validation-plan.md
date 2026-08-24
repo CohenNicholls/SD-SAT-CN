@@ -14,22 +14,22 @@ During Part B of the Live Coding Validation, I will add validation checks to rea
 
 I may need to add:
 
-* `# C723` existence checks
-* `# C724` type checks
-* `# C725` range checks
+* # C723 existence checks
+* # C724 type checks
+* # C725 range checks
 
 ---
 
 ## Feature 1 validation planning
 
 **Feature name:** Add Student
-**Linked C06 feature file:** `c06-validation/feature-1.md`
+**Linked C06 feature file:** c06-validation/feature-1.md
 
 | Input that needs validation | Where it appears in the code          | Existence check needed? | Type check needed? | Range check needed? | What bad input could test it?                               |
 | --------------------------- | ------------------------------------- | ----------------------- | ------------------ | ------------------- | ----------------------------------------------------------- |
-| Student ID                  | `add_student_window()` → `student_id` | Yes                     | Yes                | Yes                 | Enter letters, fewer than 10 digits, or more than 10 digits |
-| Class                       | `add_student_window()` → `class_box`  | Yes                     | No                 | No                  | Leave the class unselected                                  |
-| Status                      | `add_student_window()` → `status_box` | Yes                     | No                 | No                  | Leave the status unselected                                 |
+| Student ID                  | add_student_window() → student_id | Yes                     | Yes                | Yes                 | Enter letters, fewer than 10 digits, or more than 10 digits |
+| Class                       | add_student_window() → class_box  | Yes                     | No                 | No                  | Leave the class unselected                                  |
+| Status                      | add_student_window() → status_box | Yes                     | No                 | No                  | Leave the status unselected                                 |
 
 ### Notes for Feature 1
 
@@ -46,11 +46,11 @@ The program should display a warning explaining the problem and prevent the stud
 ## Feature 2 validation planning
 
 **Feature name:** Filter Students - Class Filter
-**Linked C06 feature file:** `c06-validation/feature-2.md`
+**Linked C06 feature file:** c06-validation/feature-2.md
 
 | Input that needs validation | Where it appears in the code      | Existence check needed? | Type check needed? | Range check needed? | What bad input could test it?                              |
 | --------------------------- | --------------------------------- | ----------------------- | ------------------ | ------------------- | ---------------------------------------------------------- |
-| Class filter                | `filter_students()` → `class_box` | Yes                     | No                 | No                  | No class is selected or an invalid class value is supplied |
+| Class filter                | filter_students() → class_box | Yes                     | No                 | No                  | No class is selected or an invalid class value is supplied |
 
 ### Notes for Feature 2
 
@@ -60,15 +60,15 @@ An invalid class value could cause the filter to produce incorrect results or fa
 
 **What should happen when invalid input is entered?**
 
-The program should only allow a class from the available `CLASSES` list to be selected. If no class is selected, the program can treat the value as `"All Classes"` and show all classes.
+The program should only allow a class from the available CLASSES list to be selected. If no class is selected, the program can treat the value as "All Classes" and show all classes.
 
 The existing code uses:
 
-`values=["All Classes"] + CLASSES`
+values=["All Classes"] + CLASSES
 
 and:
 
-`state="readonly"`
+state="readonly"
 
 This limits the user to the available options instead of allowing arbitrary text to be entered.
 
@@ -77,27 +77,27 @@ This limits the user to the available options instead of allowing arbitrary text
 ## Feature 3 validation planning
 
 **Feature name:** Reminder Page
-**Linked C06 feature file:** `c06-validation/feature-3.md`
+**Linked C06 feature file:** c06-validation/feature-3.md
 
 | Input that needs validation | Where it appears in the code             | Existence check needed? | Type check needed? | Range check needed? | What bad input could test it?                                         |
 | --------------------------- | ---------------------------------------- | ----------------------- | ------------------ | ------------------- | --------------------------------------------------------------------- |
-| Student status data         | `show_reminders()` → `student["Status"]` | Yes                     | Yes                | No                  | A student record has no `Status` value or has an invalid status value |
+| Student status data         | show_reminders() → student["Status"] | Yes                     | Yes                | No                  | A student record has no Status value or has an invalid status value |
 
 ### Notes for Feature 3
 
 **What could go wrong if this input is not validated?**
 
-If a student record does not contain a valid `Status` value, the Reminder Page may fail when trying to access `student["Status"]`, or it may incorrectly identify students who need reminders.
+If a student record does not contain a valid Status value, the Reminder Page may fail when trying to access student["Status"], or it may incorrectly identify students who need reminders.
 
 **What should happen when invalid input is detected?**
 
-The program should handle the invalid student record without crashing. The status should be checked against the valid `STATUSES` values before it is used by the Reminder Page.
+The program should handle the invalid student record without crashing. The status should be checked against the valid STATUSES values before it is used by the Reminder Page.
 
 The Reminder Page currently checks:
 
-`student["Status"] == "Missing"`
+student["Status"] == "Missing"
 
-so only students marked as `"Missing"` are displayed as requiring attention.
+so only students marked as "Missing" are displayed as requiring attention.
 
 ---
 
