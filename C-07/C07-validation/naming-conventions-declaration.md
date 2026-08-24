@@ -1,7 +1,9 @@
 # C07 Naming Conventions Declaration
 
-**Student name:**
+**Student name:**Cohen Nicholls
+
 **Project name:** EduTrack
+
 **Date committed:** 24 August 2026
 
 ## Purpose
