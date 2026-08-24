@@ -1,7 +1,9 @@
 # C07 Readiness Checklist
 
 **Student name:** Cohen Nicholls
+
 **Project name:** EduTrack
+
 **Date committed:** 24/08/26
 
 ## Purpose
