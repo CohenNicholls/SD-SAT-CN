@@ -1,6 +1,6 @@
 # C07 Naming Conventions Declaration
 
-**Student name:**Cohen Nicholls
+**Student name:** Cohen Nicholls
 
 **Project name:** EduTrack
 
