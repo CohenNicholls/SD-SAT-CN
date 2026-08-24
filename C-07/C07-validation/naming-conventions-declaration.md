@@ -115,4 +115,4 @@ Before committing, check:
 * [x] I have declared a convention for interface controls, as my project uses a GUI.
 * [x] I included real examples from my project.
 * [x] My examples actually follow the conventions I declared.
-* [ ] This file is committed before the C06/C07 Live Coding Validation.
+* [x] This file is committed before the C06/C07 Live Coding Validation.
