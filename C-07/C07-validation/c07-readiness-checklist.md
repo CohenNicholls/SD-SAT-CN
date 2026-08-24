@@ -143,4 +143,4 @@ Before the C06/C07 validation, check:
 * [x] I understand my three nominated features.
 * [x] I can write fresh documentation for those features.
 * [x] I know which inputs need validation.
-* [ ] My work is committed to GitHub.
+* [x] My work is committed to GitHub.
