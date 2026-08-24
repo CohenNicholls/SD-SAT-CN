@@ -286,17 +286,17 @@ You should aim to include:
 
 Before the C06/C07 Live Coding Validation, check:
 
-- [ ] My C06 three-feature map is complete.
-- [ ] My C06 feature evidence files are complete.
-- [ ] My C07 naming declaration is complete.
-- [ ] My actual code follows my naming declaration.
-- [ ] My C07 readiness checklist is complete.
-- [ ] My validation plan identifies real inputs from my three features.
-- [ ] I know the difference between existence, type, and range checks.
-- [ ] I can write fresh documentation without copying old comments.
-- [ ] I can explain how my picked feature works.
-- [ ] I have committed all C07 preparation files to GitHub.
-- [ ] I am ready to work without internet, AI, phone, or second device.
+- [x] My C06 three-feature map is complete.
+- [x] My C06 feature evidence files are complete.
+- [x] My C07 naming declaration is complete.
+- [x] My actual code follows my naming declaration.
+- [x] My C07 readiness checklist is complete.
+- [x] My validation plan identifies real inputs from my three features.
+- [x] I know the difference between existence, type, and range checks.
+- [x] I can write fresh documentation without copying old comments.
+- [x] I can explain how my picked feature works.
+- [x] I have committed all C07 preparation files to GitHub.
+- [x] I am ready to work without internet, AI, phone, or second device.
 
 ---
 
