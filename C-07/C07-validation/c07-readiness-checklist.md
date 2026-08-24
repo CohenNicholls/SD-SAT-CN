@@ -23,20 +23,20 @@ In C07, I will complete three live tasks on the same teacher-picked feature:
 ## Naming checklist
 
 * [x] My variables have clear, descriptive names.
-* [x] I do not use single-letter variable names except simple loop counters such as `i`.
-* [x] My constants use a consistent style, such as `UPPER_SNAKE_CASE`.
-* [x] My functions/methods use clear action names, such as `save_data` and `show_reminders`.
+* [x] I do not use single-letter variable names except simple loop counters such as i.
+* [x] My constants use a consistent style, such as UPPER_SNAKE_CASE.
+* [x] My functions/methods use clear action names, such as save_data and show_reminders.
 * [x] My classes use clear concept names. My project uses classes provided by Tkinter/PIL rather than defining custom classes.
-* [ ] My interface controls use a consistent prefix system, such as `btn_`, `txt_`, `lbl_`, or `cmb_`.
-* [x] I completed `naming-conventions-declaration.md`.
+* [x] My interface controls use a consistent prefix system, such as btn_, txt_, lbl_, or cmb_.
+* [x] I completed naming-conventions-declaration.md.
 * [x] My actual code generally matches my declared conventions.
 
 ## Naming issues I should fix before validation
 
 | Issue                                                                        | File/location                                         | How I will fix it                                                                                                                       |
 | ---------------------------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Interface controls do not use prefixes such as `btn_` or `lbl_` consistently | Throughout the GUI code                               | Keep the declared `snake_case` convention for named controls, rather than introducing a new prefix system immediately before validation |
-| Some Tkinter controls are created without being stored in a variable         | `show_reminders()`, `show_profile()`, `show_report()` | Leave unnamed controls where they do not need to be accessed later                                                                      |
+| Interface controls do not use prefixes such as btn_ or lbl_ consistently | Throughout the GUI code                               | Keep the declared snake_case convention for named controls, rather than introducing a new prefix system immediately before validation |
+| Some Tkinter controls are created without being stored in a variable         | show_reminders(), show_profile(), show_report() | Leave unnamed controls where they do not need to be accessed later                                                                      |
 | No custom classes are defined                                                | Whole project                                         | No change required because the project does not require custom classes                                                                  |
 
 ---
@@ -66,15 +66,15 @@ The Reminder Page displays students who have missing work. It shows the number o
 
 **What data does this feature use?**
 
-It uses the global `students` list. Each student record contains information such as `Name`, `Class`, and `Status`.
+It uses the global students list. Each student record contains information such as Name, Class, and Status.
 
 **How do the parts of this feature connect?**
 
-`show_reminders()` first calls `create_dashboard()` to create the main application layout. It then filters the `students` list using a list comprehension and stores students whose status is `"Missing"` in `missing_students`. The number of missing students is displayed, followed by each student's name and class.
+show_reminders() first calls create_dashboard() to create the main application layout. It then filters the students list using a list comprehension and stores students whose status is "Missing" in missing_students. The number of missing students is displayed, followed by each student's name and class.
 
 **What would I document if the comments were removed?**
 
-I would document the purpose of `show_reminders()`, explain that `missing_students` contains only students whose status is `"Missing"`, and explain that the function displays the number and details of those students.
+I would document the purpose of show_reminders(), explain that missing_students contains only students whose status is "Missing", and explain that the function displays the number and details of those students.
 
 ---
 
@@ -94,7 +94,7 @@ The three validation check types are:
 * [x] I can identify where an existence check is needed.
 * [x] I can identify where a type check is needed.
 * [x] I can identify where a range check is needed.
-* [x] I can label validation checks using `# C723`, `# C724`, and `# C725`.
+* [x] I can label validation checks using # C723, # C724, and # C725.
 * [x] I can run a quick test to prove that a validation check works.
 
 ### Validation examples from EduTrack
@@ -103,31 +103,31 @@ The three validation check types are:
 
 The Student ID is checked using:
 
-`student_id.isdigit()`
+student_id.isdigit()
 
 This checks that the ID contains digits.
 
 The length is checked using:
 
-`len(student_id) != 10`
+len(student_id) != 10
 
 This ensures the Student ID contains exactly 10 digits.
 
 The class and status are checked using:
 
-`class_box.get() == "" or status_box.get() == ""`
+class_box.get() == "" or status_box.get() == ""
 
 This prevents a student record from being saved without a class or status.
 
 **Filter Students:**
 
-The Class filter uses a read-only combobox containing `"All Classes"` and the values from `CLASSES`. This prevents the user from typing an arbitrary class into the control.
+The Class filter uses a read-only combobox containing "All Classes" and the values from CLASSES. This prevents the user from typing an arbitrary class into the control.
 
 **Reminder Page:**
 
-The Reminder Page uses the student's `Status` value and selects records where:
+The Reminder Page uses the student's Status value and selects records where:
 
-`student["Status"] == "Missing"`
+student["Status"] == "Missing"
 
 For C07, I can add validation to ensure the student record contains the expected status information before relying on it.
 
