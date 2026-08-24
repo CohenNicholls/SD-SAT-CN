@@ -120,4 +120,4 @@ so only students marked as "Missing" are displayed as requiring attention.
 * [x] I planned checks that match my actual features.
 * [x] I did not invent fake inputs just for the assessment.
 * [x] I know how to test at least one bad input.
-* [ ] I committed this file before the validation.
+* [x] I committed this file before the validation.
