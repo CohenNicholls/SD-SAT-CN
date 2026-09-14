@@ -1,0 +1,137 @@
+EduTrack Beta Testing Survey
+Tester Information
+•	Tester name: Mr Marshall
+•	Date tested: 8/09/2026
+•	Role: ☐ Student ✓ Teacher ☐ Other: __________
+•	Testing device: Laptop
+________________________________________
+
+Scenario	Outcome	Pause / struggle / backtrack	Questions or mistakes	Positive evidence
+Create an account and login	[✓] independent
+[ ] clarification
+[ ] not completed	Password requirements were overcomplicated	Why are the requirements for creating a Username and Password not visible
+
+Why is the log in and create account in the same screen.	Created an account
+Add, edit and remove a student	[ ] independent
+[✓] clarification
+[ ] not completed	ID number requirements need to be stated	Clicked and typed in the filter bar looking for the add student feature	Created, edited and removed a student
+
+________________________________________
+1. Overall Experience
+How easy was EduTrack to use?
+☐ Very difficult
+☐ Difficult
+✓ Neutral
+☐ Easy
+☐ Very easy
+How would you rate your overall experience with EduTrack?
+1 ☐ 2 ✓ 3 ☐ 4 ☐ 5 ☐
+
+What did you like most about EduTrack?
+The interface and layout
+
+2. Functionality Testing
+Feature	Worked correctly?	Easy to use?	Comments
+Login	✓ Yes ☐ No	☐ Yes ✓ No	
+Account creation	✓ Yes ☐ No	☐ Yes ✓ No	Password requirements need to be specified
+Adding students	✓ Yes ☐ No	✓ Yes ☐ No	
+Editing students	✓ Yes ☐ No	✓ Yes ☐ No	
+Removing students	✓ Yes ☐ No	✓ Yes ☐ No	
+Searching students	✓ Yes ☐ No	✓ Yes ☐ No	
+Filtering students	✓ Yes ☐ No	✓ Yes ☐ No	Took the time to learn
+Changing student status	✓ Yes ☐ No	✓ Yes ☐ No	
+Reminders	✓ Yes ☐ No	✓ Yes ☐ No	
+Reports	✓ Yes ☐ No	✓ Yes ☐ No	
+Profile	✓ Yes ☐ No	✓ Yes ☐ No	
+Logout	✓ Yes ☐ No	✓ Yes ☐ No	
+________________________________________
+3. Usability
+How clear were the menus and buttons?
+☐ Very unclear
+☐ Unclear
+☐ Neutral
+✓ Clear
+☐ Very clear
+Was it easy to find the information you were looking for?
+✓ Yes
+☐ Mostly
+☐ No
+
+
+Were the colours, labels and layout easy to understand?
+✓ Yes
+☐ Mostly
+☐ No
+
+Was the system responsive and quick to use?
+✓ Yes
+☐ Mostly
+☐ No
+
+What could be improved about the interface?
+•	Bulk actions using shift click to selected large number of students or select individual students
+•	Multiple class submissions for students taking multiple classes with the same teacher.
+•	Add, edit and remove students button needs to be moved up and enlarged.
+
+4. Error & Bug Testing
+Did you encounter any errors or bugs while testing?
+✓ No
+☐ Yes
+If yes, describe what happened:
+________________________________________
+________________________________________
+What were you doing when the error occurred?
+________________________________________
+________________________________________
+How serious was the issue?
+☐ Minor inconvenience
+☐ Moderate issue
+☐ Major issue
+☐ Prevented the feature from being used________________________________________
+5. Effectiveness
+Do you think EduTrack would make managing student work easier?
+☐ Definitely not
+☐ Probably not
+☐ Unsure
+✓ Probably yes
+☐ Definitely yes
+
+Does EduTrack help make student work statuses clearer and easier to manage?
+✓ Yes
+☐ Somewhat
+☐ No
+
+Which feature do you think would be most useful to a teacher?
+☐ Student management
+☐ Search/filtering
+✓ Status management
+☐ Reminders
+☐ Reports
+☐ Other: __________________
+________________________________________
+
+6. Final Feedback
+What is the best feature of EduTrack?
+•	Student management system
+What is the biggest problem or limitation with EduTrack?
+The accessibility for the average teacher and how easy it is to use by themselves.
+What feature would you add or change?
+A way to sort by complete order not just random (Missing, Late, Submitted) not to be confused with filtering.
+What feature would you remove or simplify?
+Simplified login/password
+
+Overall, how satisfied are you with EduTrack?
+1 ☐ 2 ☐ 3 ☐ 4 ✓ 5 ☐
+
+Final Evaluation
+Would you recommend EduTrack to another teacher?
+✓ Yes
+☐ Maybe
+☐ No
+
+Additional comments:
+________________________________________
+________________________________________
+________________________________________
+________________________________________
+
