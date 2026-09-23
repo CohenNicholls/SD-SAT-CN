@@ -1,4 +1,4 @@
-##**Original Requirements Compared With the Finished Software**
+**##Original Requirements Compared With the Finished Software**
 
 The original requirements generally matched the finished EduTrack software. The main purpose of the project was to help teachers manage student work that was Missing, Late or Submitted. The finished software provides student management, status management, filtering, searching, reminders and data storage, which directly support this purpose.
 
