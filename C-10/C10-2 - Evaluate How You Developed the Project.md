@@ -1,4 +1,5 @@
 **Original Requirements Compared With the Finished Software**
+
 The original requirements generally matched the finished EduTrack software. The main purpose of the project was to help teachers manage student work that was Missing, Late or Submitted. The finished software provides student management, status management, filtering, searching, reminders and data storage, which directly support this purpose.
 
 The Must Have requirements were mostly achieved. The software allows teachers to manage student records and update statuses. The finished software also includes several features that were originally identified as Should Have or Could Have requirements, such as filtering and reminders.
@@ -8,6 +9,7 @@ Some requirements were only partly achieved. The filtering system works, but bet
 
 
 **Original Designs Compared With the Finished Software**
+
 The original designs provided a useful starting point for the final interface. Important functions such as updating statuses, filtering students and managing records were included in the designs and were later developed into the finished software.
 
 The design evaluation showed that both designs supported important functions such as updating statuses, marking work as Late or Submitted, filtering, usability, reliability and portability. However, some features such as searching, saving/loading data and security were not fully represented in the original designs.
